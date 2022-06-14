@@ -2,10 +2,10 @@
 name: deploy
 
 on:
-  workflow_dispatch:
   pull_request:
     branches:
       - master
+  workflow_dispatch:
 
 - name: Publish to Open VSX Registry
   uses: HaaLeo/publish-vscode-extension@v1
