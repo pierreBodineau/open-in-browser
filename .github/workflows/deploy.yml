@@ -9,6 +9,7 @@ on:
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
